@@ -89,11 +89,17 @@ chemistry-quiz/
 🚀 Features
 
     Multiple-choice quiz
+
     3 difficulty levels
+
     Save & Load progress
+
     Ranking leaderboard
+
     Animated text effect
+
     Points system
+    
     Educational and fun
 
 ---
@@ -191,11 +197,17 @@ chemistry-quiz/
 🚀 Funcionalidades
 
     Quiz de múltipla escolha
+
     3 níveis de dificuldade
+
     Salvar e carregar progresso
+
     Ranking de melhores scores
+
     Efeito de texto animado no terminal
+
     Sistema de pontuação
+
     Educativo e divertido
 
 📚 Exemplo
