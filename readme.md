@@ -25,6 +25,7 @@
 ```bash`
 # Clone the repository
 git clone https://github.com/maargadux/chemistrygame/tree/main
+
 cd chemistrygame
 
 # Run the game
@@ -134,7 +135,8 @@ Mali Soares – LinkedIn
 🕹️ Como Jogar
 
 # Clone o repositório
-git clone https://github.com/seu_usuario/chemistrygame.git
+git clone https://github.com/maargadux/chemistrygame/tree/main
+
 cd chemistrygame
 
 # Execute o jogo
@@ -225,4 +227,5 @@ Vidas restantes: 3 | Pontuação: 10
 👩‍💻 Autor
 
 Mali Soares – LinkedIn
+
 
