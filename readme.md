@@ -1,213 +1,119 @@
 # 🧪 Chemistry Quiz Game
 
-> A fun **terminal-based chemistry quiz game** built in Python to practice chemistry concepts while having fun.  
-
-> Um jogo educativo de química no terminal feito em Python para aprender e se divertir ao mesmo tempo.
+> A **terminal-based Chemistry Quiz Game** built in Python to learn and practice chemistry concepts while having fun.  
+> Um **jogo de quiz de química no terminal** feito em Python para aprender e praticar conceitos de química se divertindo.
 
 ---
 
 ## 🎯 Game Overview / Visão Geral
 
-- 3 difficulty levels: Easy, Medium, Hard
-- Lives system: 3 per level
-- Points for correct answers
-- Ranking system to save your best scores
-- Save & Load game
+- 3 difficulty levels: Easy, Medium, Hard  
+- Lives system: 3 per level  
+- Points awarded for correct answers  
+- Ranking system to save your best scores  
+- Save & Load game functionality  
 
----
+🇧🇷 Visão Geral:
 
-🇧🇷🎯 Visão Geral
-
-- 3 níveis de dificuldade: Fácil, Médio, Difícil
-- Sistema de vidas: 3 por nível
-- Pontos por respostas corretas
-- Sistema de ranking para salvar suas melhores pontuações
-- Salvar e carregar progresso
+- 3 níveis de dificuldade: Fácil, Médio, Difícil  
+- Sistema de vidas: 3 por nível  
+- Pontos por respostas corretas  
+- Sistema de ranking para salvar suas melhores pontuações  
+- Funcionalidade de salvar e carregar jogo  
 
 ---
 
 ## 🕹️ How to Play / Como Jogar
 
-1. Run the game:  
-```bash``
+```bash
+# Clone this repository
+git clone https://github.com/seu_usuario/chemistrygame.git
+cd chemistrygame
+
+# Run the game
 python main.py
 
-    Enter your name
+    Enter your name / Digite seu nome
 
-    Select a menu option 
-    Option	Description
-    1	Start Game
-    2	Load Saved Game 
-    3	Ranking
-    4	About the Game
-    5	Exit
+    Choose a menu option / Escolha uma opção do menu:
 
-    Answer multiple-choice questions (a/b/c/d)
+Option	Description
+1	Start Game / Iniciar Jogo
+2	Load Saved Game / Carregar Jogo
+3	Ranking
+4	About the Game / Sobre o Jogo
+5	Exit / Sair
 
-    Correct answer = points
-    Wrong answer = lose 1 life
+    Answer multiple-choice questions (a/b/c/d) / Responda perguntas de múltipla escolha (a/b/c/d)
 
-    Game over when all lives are lost
+    Correct answer = points / Resposta correta = pontos
+    Wrong answer = lose 1 life / Resposta errada = perde 1 vida
 
-    Complete the level to see your score and ranking
+    Game over when all lives are lost / Fim do jogo quando todas as vidas acabarem
 
----
+    Complete the level to see your score and ranking / Complete o nível para ver sua pontuação e ranking
 
-### 🇧🇷🕹️ How to Play / Como Jogar
-
-1. Run the game:  
-```bash``
-python main.py
-
-    1. Digite seu nome
-
-    2 . Escolha uma opção do menu:
-        1	Iniciar Jogo
-        2	Carregar Jogo
-        3	Ranking
-        4	Sobre o Jogo
-        5	Sair
-
-    3. Responda as perguntas com respostas de multipla escolha (a/b/c/d)
-
-    Resposta correta = pontos
-   
-    Resposta errada = perde 1 vida
-   
-    Fim do jogo quando todas as vidas acabarem
-   
-    Complete o nível para ver sua pontuação e ranking
-
----
-
-🏆 Levels & Points 
-        Level 	    Lives       Points per Question
-Easy     🟢	          3	          10
-
-Medium   🟡	          3	          20
-
-Hard     🔴	          3	          30
-
----
-
-🇧🇷🏆 Níveis e Pontuação
-            Nível	   Vidas	    Pontos por Pergunta
-Fácil	      🟢        3                   10  
-
-Médio	      🟡        3                   20     
-
-Difícil	      🔴        3                   30     	           
-
----
-
+🏆 Levels & Points / Níveis e Pontuação
+Level / Nível	Lives / Vidas	Points per Question / Pontos por Pergunta
+Easy 🟢	3	10
+Medium 🟡	3	20
+Hard 🔴	3	30
 🔧 Technologies / Tecnologias
 
     Python 3.x
-    
+
     Terminal / Console
-    
+
     File handling (save/load system) / Manipulação de arquivos (salvar/carregar)
-    
+
     Functions, loops, dictionaries / Funções, loops, dicionários
 
----
-
-🇧🇷🔧 Tecnologias
-
-    Python 3.x
-    
-    Terminal / Console
-    
-    Manipulação de arquivos (salvar/carregar)
-    
-    Funções, loops, dicionários
-
----
-
-💻 Project Structure
+💻 Project Structure / Estrutura do Projeto
 
 chemistry-quiz/
-├── main.py          # Entry point
-├── menu.py          # Game menu 
-├── dificuldades.py  # Difficulty selection 
-├── levels.py        # Level logic
-├── questions.py     # Questions per level
-├── utils.py         # Utility functions
-├── data.py          # Save & ranking system
-├── save.txt         # Created after first save
-├── ranking.txt      # Created after first game
-└── README.md        # This file
+├── main.py          # Entry point / Ponto de entrada
+├── menu.py          # Game menu / Menu do jogo
+├── dificuldades.py  # Difficulty selection / Seleção de dificuldade
+├── levels.py        # Level logic / Lógica dos níveis
+├── questions.py     # Questions per level / Perguntas por nível
+├── utils.py         # Utility functions / Funções utilitárias
+├── data.py          # Save & ranking system / Sistema de save e ranking
+├── save.txt         # Created after first save / Criado após o primeiro save
+├── ranking.txt      # Created after first game / Criado após o primeiro jogo
+└── README.md        # This file / Este arquivo
 
----
+🚀 Features / Funcionalidades
 
-🇧🇷💻 Estrutura do Projeto
+    Multiple-choice quiz 🎓 / Quiz de múltipla escolha
 
-chemistry-quiz/
-├── main.py          # Ponto de entrada
-├── menu.py          # Menu do jogo
-├── dificuldades.py  # Seleção de dificuldade
-├── levels.py        # Lógica dos níveis
-├── questions.py     # Perguntas por nível
-├── utils.py         # Funções utilitárias
-├── data.py          # Sistema de save e ranking
-├── save.txt         # Criado após o primeiro save
-├── ranking.txt      # Criado após o primeiro jogo
-└── README.md        # Este arquivo
+    3 difficulty levels / 3 níveis de dificuldade
 
----
+    Save & Load progress 💾 / Salvar e carregar progresso
 
-🚀 Features 
+    Ranking leaderboard 🏆 / Ranking de melhores scores
 
-    Multiple-choice quiz 🎓 
-    
-    3 difficulty levels 
-    
-    Save & Load progress 💾 
-    
-    Ranking leaderboard 🏆 
-    
-    Animated text effect ✨ 
-    
-    Points system 
-    
-    Educational and fun 
+    Animated text effect ✨ / Efeito de texto animado no terminal
 
---- 
+    Points system / Sistema de pontuação
 
-🇧🇷 🚀 Funcionalidades
+    Educational and fun / Educativo e divertido
 
-    Quiz de múltipla escolha
-    
-    3 níveis de dificuldade
-
-    Salvar e carregar progresso
-    
-    Ranking de melhores scores
-    
-    Efeito de texto animado no terminal
-    
-    Sistema de pontuação
-    
-    Educativo e divertido
-
----
-
-📚 Example / 🇧🇷 Exemplo
+📚 Example / Exemplo
 
 🎯 CHOOSE DIFFICULTY
-
 1 - 🟢 Easy
-
 3 lives | 10 pts/question
 
 Enter your answer (a/b/c/d): b
-
 ✅ Correct!
+
 Lives left: 3 | Score: 10
 
-My linkedin is: https://www.linkedin.com/in/soaresoliv/
+👩‍💻 Author / Autor
 
+Mali Soares – LinkedIn
 
-...
+Python Developer | Aspiring Remote Dev | Educational Games Enthusiast
+📝 License / Licença
 
-
+MIT License / Licença MIT
