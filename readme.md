@@ -62,7 +62,6 @@ python main.py
     1. Digite seu nome
 
     2 . Escolha uma opção do menu:
-    #Option	Description
         1	Iniciar Jogo
         2	Carregar Jogo
         3	Ranking
@@ -73,9 +72,7 @@ python main.py
 
     Resposta correta = pontos
     Resposta errada = perde 1 vida
-
     Fim do jogo quando todas as vidas acabarem
-
     Complete o nível para ver sua pontuação e ranking
 
 ---
@@ -159,6 +156,7 @@ chemistry-quiz/
 --- 
 
 🇧🇷 🚀 Funcionalidades
+
     Quiz de múltipla escolha
     3 níveis de dificuldade
     Salvar e carregar progresso
@@ -172,15 +170,18 @@ chemistry-quiz/
 📚 Example / 🇧🇷 Exemplo
 
 🎯 CHOOSE DIFFICULTY
+
 1 - 🟢 Easy
+
 3 lives | 10 pts/question
 
 Enter your answer (a/b/c/d): b
-✅ Correct!
 
+✅ Correct!
 Lives left: 3 | Score: 10
 
 My linkedin is: https://www.linkedin.com/in/soaresoliv/
 
 
 ...
+
