@@ -71,8 +71,11 @@ python main.py
     3. Responda as perguntas com respostas de multipla escolha (a/b/c/d)
 
     Resposta correta = pontos
+   
     Resposta errada = perde 1 vida
+   
     Fim do jogo quando todas as vidas acabarem
+   
     Complete o nível para ver sua pontuação e ranking
 
 ---
@@ -80,15 +83,19 @@ python main.py
 🏆 Levels & Points 
         Level 	    Lives       Points per Question
 Easy     🟢	          3	          10
+
 Medium   🟡	          3	          20
+
 Hard     🔴	          3	          30
 
 ---
 
 🇧🇷🏆 Níveis e Pontuação
             Nível	   Vidas	    Pontos por Pergunta
-Fácil	      🟢        3                   10  	            
-Médio	      🟡        3                   20       	            
+Fácil	      🟢        3                   10  
+
+Médio	      🟡        3                   20     
+
 Difícil	      🔴        3                   30     	           
 
 ---
@@ -96,8 +103,11 @@ Difícil	      🔴        3                   30
 🔧 Technologies / Tecnologias
 
     Python 3.x
+    
     Terminal / Console
+    
     File handling (save/load system) / Manipulação de arquivos (salvar/carregar)
+    
     Functions, loops, dictionaries / Funções, loops, dicionários
 
 ---
@@ -105,8 +115,11 @@ Difícil	      🔴        3                   30
 🇧🇷🔧 Tecnologias
 
     Python 3.x
+    
     Terminal / Console
+    
     Manipulação de arquivos (salvar/carregar)
+    
     Funções, loops, dicionários
 
 ---
@@ -146,11 +159,17 @@ chemistry-quiz/
 🚀 Features 
 
     Multiple-choice quiz 🎓 
+    
     3 difficulty levels 
+    
     Save & Load progress 💾 
+    
     Ranking leaderboard 🏆 
+    
     Animated text effect ✨ 
+    
     Points system 
+    
     Educational and fun 
 
 --- 
@@ -158,11 +177,17 @@ chemistry-quiz/
 🇧🇷 🚀 Funcionalidades
 
     Quiz de múltipla escolha
+    
     3 níveis de dificuldade
+
     Salvar e carregar progresso
+    
     Ranking de melhores scores
+    
     Efeito de texto animado no terminal
+    
     Sistema de pontuação
+    
     Educativo e divertido
 
 ---
@@ -184,4 +209,5 @@ My linkedin is: https://www.linkedin.com/in/soaresoliv/
 
 
 ...
+
 
