@@ -24,7 +24,7 @@
 
 ```bash`
 # Clone the repository
-git clone https://github.com/seu_usuario/chemistrygame.git
+git clone https://github.com/maargadux/chemistrygame/tree/main
 cd chemistrygame
 
 # Run the game
@@ -225,3 +225,4 @@ Vidas restantes: 3 | Pontuação: 10
 👩‍💻 Autor
 
 Mali Soares – LinkedIn
+
